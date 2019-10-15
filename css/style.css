@@ -1,5 +1,5 @@
 body {
-    font-family: varela round, sans-serif;
+    font-family: 'Almarai', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     overflow-x: hidden;
@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: montserrat, sans-serif;
+    font-family: 'Almarai', sans-serif;
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 20px;
@@ -277,11 +277,7 @@ textarea:focus {
     background: 0 0;
 }
 
-
-p {
-}
-
-
+p {}
 
 @media only screen and (min-width: 768px) {
     .main-nav li {
@@ -576,7 +572,6 @@ header {
 .breadcrumb>li+li:before {
     color: #868f9b;
 }
-
 
 .feat {
     position: relative;
