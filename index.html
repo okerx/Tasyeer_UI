@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Almarai&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.3.4/css/bootstrap-rtl.css" integrity="sha256-Y4fsmcZ5AITTOI41har72EhwauUaLt5u51px24bEtKc=" crossorigin="anonymous" />
     <link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
     <link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
     <link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
@@ -28,16 +28,10 @@
         <div class="bg-img" style="background-image: url('./img/background1.jpg')">
             <div class="overlay"></div>
         </div>
-        <nav id="nav" class="navbar nav-transparent">
+        <nav id="nav" class="navbar nav-transparent ">
             <div class="container">
                 <div class="navbar-header">
-                    <div class="navbar-brand">
-                        <a href="index.html">
-                            <img class="logo" src="img/logo.png" alt="logo" />
-                            <img class="logo-alt" src="img/logo-alt.png" alt="logo-alt" />
-                        </a>
-                    </div>
-
+                    
                     <div id="sm-nav" class="nav-collapse">
                         <span></span>
                     </div>
@@ -61,7 +55,7 @@
                     </li>
 
                     <li>
-                        <a href="#customers">عملائنا</a>
+                        <a href="#customers">زبائننا</a>
                     </li>
                     <li>
                         <a href="#team">فريقنا</a>
@@ -79,6 +73,12 @@
                         <a href="#contact">اتصل بنا</a>
                     </li>
                 </ul>
+                <div class="navbar-brand text-left" style="position: relative; right: 40%; z-index: -1">
+                        <a href="index.html">
+                            <img class="logo" src="img/logo.png" alt="logo" />
+                            <img class="logo-alt" src="img/logo-alt.png" alt="logo-alt" />
+                        </a>
+                    </div>
             </div>
         </nav>
 
@@ -156,14 +156,14 @@
             </div>
         </div>
     </div>
-    <div id="service" class="section md-padding">
+    <div id="service" class="rtl section md-padding">
         <div class="container">
-            <div class="row">
+            <div class="row rtl">
                 <div class="section-header text-center">
                     <h2 class="title">ما هي خدماتنا</h2>
                 </div>
 
-                <div class="col-md-4 col-sm-6 ">
+                <div class="col-md-4 col-sm-6 rtl">
                     <div class="service">
                         <i class="fa fa-diamond"></i>
                         <h3>الخدمة 1</h3>
@@ -176,7 +176,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 rtl">
                     <div class="service">
                         <i class="fa fa-rocket"></i>
                         <h3>الخدمة 2</h3>
@@ -393,7 +393,7 @@
         <div class="container">
             <div class="row">
                 <div class="section-header text-center">
-                    <h2 class="title">عملائنا</h2>
+                    <h2 class="title">زبائننا</h2>
                 </div>
 
                 <div class="col-md-4 col-xs-6 work">
@@ -580,7 +580,7 @@
                     <h2 class="title  text-center" style="color: #fff">
                         حمل التطبيق اللآن
                     </h2>
-                    <div class="col-12">
+                    <!-- <div class="col-12">
                         <div class="col-6" style="color: #fff">
                             <h3 style="color: #fff">
                                 تطبيق تسيير متوفر الآن للأجهزة الذكية
@@ -589,21 +589,21 @@
                                 *app discription* *app discription* *app discription* *app discription* *app discription* *app discription* *app discription* *app discription* *app discription* *app discription* *app discription* *app discription*
                             </p>
                             <div class="row">
-                                <div class="col ">
+                                <div class="col" style="margin: 0; padding: 0;">
                                     <a href="#" class="btn btn-store hvr-icon-wobble-horizontal">
                                         <span class="fa fa-apple fa-3x pull-left hvr-icon"></span>
-                                        <span class="btn-label" style="line-height: 200%; text-align: right;">متوفر الآن على</span>
-                                        <span class="btn-caption" style=" text-align: right;">App Store</span>
+                                        <span class="btn-label" style="line-height: 2;">متوفر الآن على</span>
+                                        <span class="btn-caption">App Store</span>
                                     </a>
                                     <a href="#" class="btn btn-store hvr-icon-wobble-horizontal">
                                         <span class="fa fa-android fa-3x pull-left hvr-icon"></span>
-                                        <span class="btn-label" style="line-height: 200%; text-align: right;">متوفر الآن</span>
-                                        <span class="btn-caption" style="text-align: right;">Google Play</span>
+                                        <span class="btn-label" style="line-height: 2;">متوفر الآن</span>
+                                        <span class="btn-caption">Google Play</span>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
