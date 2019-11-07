@@ -392,6 +392,29 @@ p {
     .main-nav>li.active>a:after {
         width: 100%;
     }
+    .collapsible {
+  cursor: pointer;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.dropdown-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
     .has-dropdown {
         position: relative;
     }
@@ -574,7 +597,7 @@ header {
     color: #6195ff;
     margin-bottom: 20px;
 }
-
+/*
 .feat:after {
     content: "";
     background-color: #1c1d21;
@@ -586,20 +609,20 @@ header {
     z-index: -1;
     -webkit-transition: 0.2s width;
     transition: 0.2s width;
-}
+}*/
 
-.feat:hover:after {
+/*.feat:hover:after {
     width: 100%;
-}
+}*/
 
 .feat h3 {
     -webkit-transition: 0.2s color;
     transition: 0.2s color;
 }
 
-.feat:hover h3 {
+/*.feat:hover h3 {
     color: #fff;
-}
+}*/
 
 
 
