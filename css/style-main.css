@@ -1,9 +1,11 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Almarai', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     overflow-x: hidden;
-    color: linear-gradient(-333deg, #153186, #21a9c1);
 }
 
 h1,
@@ -125,7 +127,7 @@ ol {
     top: 0;
     right: 0;
     bottom: 0;
-    opacity: 0.8;
+    opacity: .5;
     background: #1c1d21;
 }
 
@@ -319,7 +321,30 @@ textarea:focus {
 p {
     margin-top: 30px;
 }
+.arrow{
+    
+    display: block;
+    position: relative;
+    bottom: -6em
+}
+.arrow a {
+    color: #16aba1;
+}
+.bounce {
+  animation: bounce 2s infinite;
+}
 
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
 .cntr {
     display: table;
     width: 100%;
